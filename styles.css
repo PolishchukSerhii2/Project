@@ -59,6 +59,7 @@ li button {
 
 h1{
     color: greenyellow;
+
 }
 
 h4{
@@ -98,4 +99,8 @@ footer:hover {
     border-radius: 85px;
     border: 7px greenyellow double;
     transition: all 0.5s;
+}
+
+.image {
+    width: 10%;
 }
