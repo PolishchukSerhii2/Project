@@ -23,7 +23,7 @@ button {
     padding: 10px 20px;
     background-color: greenyellow;
     color: black;
-    border: 2px solid greenyellow;
+    border: 2px solid #66ff99;
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.6s;
@@ -32,6 +32,7 @@ button {
 button:hover {
     background-color: #555;
     color: aliceblue;
+    border: aqua solid 2px;
 }
 
 ul {
@@ -64,6 +65,12 @@ h4{
     color: greenyellow;
 }
 
+h4:hover {
+    transition: all 0.5s;
+    color: #66ff99;
+    cursor: pointer;
+}
+
 #taskInput{
     border-radius: 65px;
     border: 2px double greenyellow;
@@ -71,16 +78,24 @@ h4{
 
 #taskCount {
     margin-top: 10px;
+    color: greenyellow;
 }
 
 footer{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    padding: 0%;
-    margin: 0%;
     text-align: center;
     border: 7px double #444;
     border-radius: 65px;
-    max-width: 640px;
+    cursor: pointer;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 1px;
+}
+
+footer:hover {
+    border-radius: 85px;
+    border: 7px greenyellow double;
+    transition: all 0.5s;
 }
